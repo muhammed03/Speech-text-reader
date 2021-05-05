@@ -1,4 +1,4 @@
-import managedData from "./src/data";
+import managedData from "./data";
 
 const main = document.querySelector("main");
 const voicesSelect = document.getElementById("voices");

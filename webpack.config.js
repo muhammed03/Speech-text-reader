@@ -42,13 +42,10 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new CopyPlugin({
-      patterns: [
-        { from: "public/audio", to: "assets/audio" },
-        { from: "public/img", to: "assets/img" },
-      ],
+      patterns: [{ from: "public/img", to: "assets/img" }],
     }),
     new HtmlWebpackPlugin({
-      title: "EFK",
+      title: "Speech Text Recorder",
       filename: "index.html",
       template: "public/index.html",
     }),

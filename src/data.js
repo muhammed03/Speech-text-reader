@@ -295,7 +295,7 @@ let managedData = [];
 for (let i = 0; i < datas.length; i++) {
   let data = {};
   data.word = datas[i].word;
-  data.image = "src/" + datas[i].image;
+  data.image = datas[i].image;
   managedData[i] = data;
 }
 
