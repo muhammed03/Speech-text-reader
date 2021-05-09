@@ -45,7 +45,7 @@ module.exports = {
       patterns: [{ from: "public/img", to: "assets/img" }],
     }),
     new HtmlWebpackPlugin({
-      title: "Speech Text Recorder",
+      title: "EFK",
       filename: "index.html",
       template: "public/index.html",
     }),
